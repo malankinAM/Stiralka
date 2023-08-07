@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/shake-hands-fill.svg" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+         <!-- ========Robots TxT -->
+        <link rel="stylesheet" href="robot.txt">
+
+        <title>Стиралка</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-shirt-fill"></i> Стиралка
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Домашняя</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">О нас</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Советы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Связь с нами</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/remont-stiralnyh-mashin-na-domu.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Ремонт стиральных машин <br> на дому
+                        </h1>
+                        <p class="home__description" style="font-size:x-large;">
+                            Недорогой ремонт стиральных машин на&nbsp;дому с&nbsp;гарантией 3&nbsp;года!
+                            Выезд мастера и&nbsp;диагностика&nbsp;&mdash; БЕСПЛАТНО!
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Заказать сейчас <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Подписывайтесь </span>
+
+                        <div class="home__social-links">
+                            <a href="#" target="_blank" class="home__social-link">
+                                <i class="ri-telegram-fill" style="color: rgb(82, 159, 241); font-size: 30px; "></i>
+                            </a>
+                            <a href="#" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line" style="color: rgb(176, 9, 165); font-size: 30px; "></i>
+                            </a>
+                            <a href="#" target="_blank" class="home__social-link">
+                                <i class="ri-whatsapp-fill" style="color: rgb(81, 225, 52); font-size: 30px; "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/baby.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Кто мы на самом деле и <br> почему выбирают нас
+                        </h2>
+
+                        <p class="about__description" style="font-size:x-large;">
+                            У&nbsp;нас более 4000 беспристрастных отзывов,
+                             и&nbsp;наши клиенты каждый раз доверяют нашем мастерам и&nbsp;службе .
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description" style="font-size:20px;">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Диагностика&nbsp;&mdash; БЕСПЛАТНО *
+                            </p>
+                            <p class="about__details-description" style="font-size:20px;">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Мы&nbsp;даем вам руководства по&nbsp;защите и&nbsp;уходу за&nbsp;вашими устройствами.
+                            </p>
+                            <p class="about__details-description" style="font-size:20px;">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Выезд мастера&nbsp;&mdash; БЕСПЛАТНО.
+                            </p>
+                            <p class="about__details-description" style="font-size:20px;">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% гарантия от&nbsp;нашим мастеров.
+                            </p>
+                        </div>
+
+                        <a href="#about" class="button button--flex">
+                            Заказать сейчас <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Как мы&nbsp;  работаем
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Звонок</h3>
+                            <p class="steps__card-description"style="font-size:20px;">
+                                Звоните нам прямо сейчас и&nbsp;закажите бесплатный выезд мастера на&nbsp;дом по&nbsp;Москве.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Консультация</h3>
+                            <p class="steps__card-description"style="font-size:20px;">
+                                Мы&nbsp;проконсультируем вас о&nbsp;возможном ремонте вашей стиральной машинки.
+                                Узнайте стоимость ремонта заранее!
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Выезд мастера</h3>
+                            <p class="steps__card-description"style="font-size:20px;">
+                                Мастер выезжает на&nbsp;дом в&nbsp;удобное вам время, производит диагностику и&nbsp;ремонт.
+                                Все необходимые запчасти у&nbsp;мастера с&nbsp;собой.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    О&nbsp;сервисном центре <br>
+                    Ремонт стиральных машин на&nbsp;дому <br>
+                    Бесплатный выезд мастера на&nbsp;дом по&nbsp;Москве <br> Без дополнительных условий!
+                </h2>
+
+                <p class="product__description"style="font-size:20px;">
+                    К&nbsp;вашим услугам ремонт стиральных машин всех известных марок:
+                     Ariston, Beko, Bosch, Electrolux, Hansa, Indesit, LG, Miele, Samsung, Whirlpool,
+                      Zanussi и&nbsp;других фирм-производителей.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/beko.jpg" alt="" class="product__img" style="width: 250px; height: 150px;">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/bosh.jpg" alt="" class="product__img" style="width: 250px; height: 150px;">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/eleck.png" alt="" class="product__img" style="width: 250px; height: 150px;" >
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/indes.gif" alt="" class="product__img" style="width: 250px; height: 150px;">
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="assets/img/lg.jpg" alt="" class="product__img" style="width: 250px; height: 150px;">
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/whirlpool-reuters.avif" alt="" class="product__img" style="width: 250px; height: 150px;">
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    СОВЕТЫ
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №1.
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                    Прежде чем вы&nbsp;загрузите белье в&nbsp;стиральную машину,
+                                     проверьте, нет&nbsp;ли в&nbsp;барабане посторонних предметов. 
+                                     Очень часто дети могут положить туда игрушку или домашнее животное может спрятать в&nbsp;
+                                     барабан любую мелкую вещь, которая станет причиной поломки вашей стиральной машины.
+                                      Точно так&nbsp;же проверяйте барабан на&nbsp;наличие иголок, булавок,
+                                       пуговиц и&nbsp;по&nbsp;окончании стирки.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №2
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                    Закладывайте белье в&nbsp;стиральную машину в&nbsp;расправленном виде,
+                                     чтобы оно распределялось по&nbsp;барабану равномерно. Внимательно следите за&nbsp;тем,
+                                      чтобы случайно не&nbsp;превысить установленный лимит по&nbsp;весу белья,
+                                       которое ваша машинка может постирать за&nbsp;один цикл. Если вы&nbsp;набьете полный барабан, то&nbsp;вряд&nbsp;ли останетесь довольны результатом стирки. Также не&nbsp;стирайте по&nbsp;одной вещи, потому как стиральная машина не&nbsp;сможет равномерно распределить ее&nbsp;по&nbsp;всему барабану перед отжимом, что нежелательно. И, конечно&nbsp;же, не&nbsp;забывайте о&nbsp;том, что белье необходимо сортировать: светлое,
+                                     темное, цветное, линяющее и&nbsp;т.д.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №3
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                    Не&nbsp;пренебрегайте советами по&nbsp;использованию стирального порошка.
+                                     Выбирайте для своей стиральной машины только порошок-автомат,
+                                      потому как любое другое моющее средство может спровоцировать выход из&nbsp;
+                                      строя электроники и&nbsp;стать причиной поломки барабана.
+                                       Помните, чем больше белья вы&nbsp;намерены постирать,
+                                        тем больше следует использовать стирального порошка,
+                                     чтобы обеспечить максимально высокое качество стирки.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №4.
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                    Если вы&nbsp;используете кондиционер для белья, старайтесь разбавлять его водой,
+                                     потому что, как правило, все кондиционеры имеют густую консистенцию,
+                                     и&nbsp;стиральная машина не&nbsp;забирает его весь.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №5.
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                     После стирки обязательно вытирайте манжет люка (резинку между стеклом и&nbsp;стиральной машиной),
+                                     а&nbsp;также оставляйте люк слегка приоткрытым, если не&nbsp;хотите,
+                                     чтобы в&nbsp;вашей машинке поселился грибок.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title"style="font-size:20px;">
+                                    Совет №6.
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description"style="font-size:20px;">
+                                    Используйте средства от&nbsp;накипи отдельно или покупайте порошки для автоматической стирки,
+                                     состав которых помогает защитить вашу стиральную машину от&nbsp;накипи.
+                                      Проверить, есть&nbsp;ли накипь на&nbsp;нагревательном элементе или нет, вы&nbsp;можете самостоятельно.
+                                       Для этого посветите фонариком на&nbsp;тэн, который расположен в&nbsp;нижней части бака, через отверстия в&nbsp;барабане, при этом сам барабан слегка покачивайте. Чтобы не&nbsp;оставить накипи ни&nbsp;малейших шансов,
+                                     старайтесь стирать при низких температурах (оптимально&nbsp;&mdash; при 40&ordm;С).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Свяжитесь с&nbsp;нами сегодня
+                            по&nbsp;любой из&nbsp;предоставленной
+                            информации
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Позвоните нам для мгновенной поддержки</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +7 000 000 00 00
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Напишите нам по&nbsp;почте</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    user@email.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Электронная почта</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Тема</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Сообщение</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Напишите нам
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-shirt-fill"></i> Стиралка
+                    </a>
+
+                    <h3 class="footer__title">
+                        Подписывайтесь на&nbsp;нашу новостную рассылку чтоб
+                        оставаться в&nbsp;курсе
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Подписаться
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Наш адрес</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">123456 - Москва</li>
+                        <li class="footer__information">Стартуха</li>
+                        <li class="footer__information">11-22-33</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Связаться с нами</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+7 000 888 77 77</li>
+                        
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-telegram-fill" style="color: rgb(82, 159, 241); font-size: 30px; "></i>
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-instagram-line" style="color: rgb(176, 9, 165); font-size: 30px; "></i>
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <i class="ri-whatsapp-fill" style="color: rgb(81, 225, 52); font-size: 30px; "></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Мы принимаем все кредитные карты
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/mir.jpg" alt="" class="footer__card">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy" style="color: brown;">&#169;Copyring &copy Alaska.Alex &Frontend developer.</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
